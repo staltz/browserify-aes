@@ -1,5 +1,5 @@
 {
-  "name": "browserify-aes",
+  "name": "@staltz/browserify-aes",
   "version": "1.2.0",
   "description": "aes, for browserify",
   "browser": "browser.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/crypto-browserify/browserify-aes.git"
+    "url": "git://github.com/staltz/browserify-aes.git"
   },
   "keywords": [
     "aes",
@@ -24,9 +24,9 @@
   "author": "",
   "license": "MIT and BSD-3 and (BSD-2 or GPL-2)",
   "bugs": {
-    "url": "https://github.com/crypto-browserify/browserify-aes/issues"
+    "url": "https://github.com/staltz/browserify-aes/issues"
   },
-  "homepage": "https://github.com/crypto-browserify/browserify-aes",
+  "homepage": "https://github.com/staltz/browserify-aes",
   "dependencies": {
     "buffer-xor": "^1.0.3",
     "cipher-base": "^1.0.0",
@@ -39,5 +39,8 @@
     "standard": "^9.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
